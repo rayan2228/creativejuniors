@@ -1,7 +1,7 @@
-import { Banner } from "./components/Banner";
+import Home from "./pages/Home";
 
 function App() {
-  return <Banner />;
+  return <Home />;
 }
 
 export default App;
