@@ -7,7 +7,13 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        inter: ["Inter", "sans-serif"]
+        inter: ["Inter", "sans-serif"],
+        banglaRegular: ["banglaRegular", "sans-serif"],
+        banglaBold: ["banglaBold", "sans-serif"],
+        banglaSemiBold: ["banglaSemiBold", "sans-serif"],
+      },
+      colors: {
+        primaryColor: "#160098"
       }
     },
   },
