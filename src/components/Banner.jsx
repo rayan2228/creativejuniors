@@ -14,7 +14,7 @@ const Banner = () => {
       }}
       className=" text-center pt-[602px] relative"
     >
-      <Img src={carnival} alt={carnival} className={"relative z-10 w-full"} />
+      <Img src={carnival} alt={carnival} className={"relative z-10"} />
       <div className={"  mt-[-180px] relative bottom-[-6px] "}>
         <Img src={shape} className={"w-full"} />
       </div>
