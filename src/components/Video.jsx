@@ -1,5 +1,6 @@
 import videoBg from "../assets/video.png";
-
+import Img from "./layouts/Img";
+import videoBtn from "../assets/videoBtn.png";
 const Video = () => {
   return (
     <section
@@ -10,7 +11,9 @@ const Video = () => {
       }}
       className="mt-[200px]"
     >
-      <div className="py-[227px] bg-[rgb(22,5,122,0.4)]"></div>
+      <div className="py-[227px] bg-[rgb(22,5,122,0.4)] text-center">
+        <Img src={videoBtn} alt={videoBtn} className={"cursor-pointer"} />
+      </div>
     </section>
   );
 };
