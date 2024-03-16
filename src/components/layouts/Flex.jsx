@@ -1,5 +1,9 @@
-const Flex = ({ children, className }) => {
-  return <div className={`flex ${className}`}>{children}</div>;
+const Flex = ({ children, className, style }) => {
+  return (
+    <div className={`flex ${className}`} style={style}>
+      {children}
+    </div>
+  );
 };
 
 export default Flex;
