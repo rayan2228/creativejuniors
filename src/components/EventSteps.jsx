@@ -10,7 +10,7 @@ import Img from "./layouts/Img";
 import Steps from "./Steps";
 const EventSteps = () => {
   return (
-    <section className="font-banglaRegular mt-[212px]">
+    <section className="font-banglaRegular py-[200px] bg-[rgb(251,211,34,0.15)]">
       <Container>
         <Flex className={"justify-between"}>
           <div className="w-[532px]">
