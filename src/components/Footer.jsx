@@ -51,22 +51,22 @@ const Footer = () => {
             </div>
             <Flex className={"gap-x-5 items-center"}>
               <Flex
-                className="w-[53px] h-[53px] rounded-full bg-[#E8214E] justify-center items-center"
+                className="group hover:bg-[#FBD422] w-[53px] h-[53px] rounded-full bg-[#E8214E] justify-center items-center transition-all duration-300 cursor-pointer"
                 style={{ boxShadow: "0px 4px 4px 0px rgba(0,0,0,0.25)" }}
               >
-                <FaFacebookF />
+                <FaFacebookF className="group-hover:text-[#99258E] transition-all duration-300 cursor-pointer" />
               </Flex>
               <Flex
-                className="w-[53px] h-[53px] rounded-full bg-[#FBD422] justify-center items-center"
+                className="group hover:bg-[#FBD422] w-[53px] h-[53px] rounded-full bg-[#E8214E] justify-center items-center transition-all duration-300 cursor-pointer"
                 style={{ boxShadow: "0px 4px 4px 0px rgba(0,0,0,0.25)" }}
               >
-                <FaTwitter className="text-[#99258E]" />
+                <FaTwitter className="group-hover:text-[#99258E] transition-all duration-300 cursor-pointer" />
               </Flex>
               <Flex
-                className="w-[53px] h-[53px] rounded-full bg-[#E8214E] justify-center items-center"
+                className="group hover:bg-[#FBD422] w-[53px] h-[53px] rounded-full bg-[#E8214E] justify-center items-center transition-all duration-300 cursor-pointer"
                 style={{ boxShadow: "0px 4px 4px 0px rgba(0,0,0,0.25)" }}
               >
-                <FaLinkedinIn />
+                <FaLinkedinIn className="group-hover:text-[#99258E] transition-all duration-300 cursor-pointer" />
               </Flex>
             </Flex>
           </Flex>
