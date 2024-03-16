@@ -15,8 +15,8 @@ const About = () => {
           <div className="w-2/5">
             <Img src={aboutImg} alt={aboutImg} className={"w-full"} />
           </div>
-          <div className="w-[45%]">
-            <p className="font-banglaRegular text-[32px] leading-[150%]">
+          <div className="w-[48%]">
+            <p className="font-banglaRegular text-[32px] leading-[150%] w-[604px]">
               ক্রিয়েটিভ আইটি ইনস্টিটিউট দীর্ঘ ১৫ বছর ধরে জনসাধারণের মাঝে আইটি
               প্রশিক্ষণ ও সচেতনতা প্রদানের মাধ্যমে দেশের মানুষের দক্ষতা উন্নয়নে
               কাজ করে আসছে। পাশাপাশি আগামীর কর্ণধারদের নিয়েও কাজ করে যাচ্ছে
