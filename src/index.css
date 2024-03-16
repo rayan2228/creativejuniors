@@ -8,6 +8,11 @@
 }
 
 @font-face {
+    font-family: "aeonik";
+    src: url("./fonts/AeonikTRIAL.ttf");
+}
+
+@font-face {
     font-family: "banglaRegular";
     src: url("./fonts/LiAdorNoirritRegular.ttf");
 }

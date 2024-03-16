@@ -11,6 +11,7 @@ export default {
         banglaRegular: ["banglaRegular", "sans-serif"],
         banglaBold: ["banglaBold", "sans-serif"],
         banglaSemiBold: ["banglaSemiBold", "sans-serif"],
+        aeonik: ["aeonik", "sans-serif"],
       },
       colors: {
         primaryColor: "#160098"
