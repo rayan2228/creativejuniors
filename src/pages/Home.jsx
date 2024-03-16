@@ -5,6 +5,7 @@ import EventBenefits from "../components/EventBenefits";
 import EventPIcs from "../components/EventPIcs";
 import EventSteps from "../components/EventSteps";
 import Footer from "../components/Footer";
+import Judgepanel from "../components/Judgepanel";
 import PriceNotice from "../components/PriceNotice";
 import Sponsers from "../components/Sponsers";
 import Video from "../components/Video";
@@ -18,6 +19,7 @@ const Home = () => {
       <EventSteps />
       <EventPIcs />
       <EventBenefits />
+      <Judgepanel />
       <PriceNotice />
       <Sponsers />
       <Footer />
