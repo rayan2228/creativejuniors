@@ -1,5 +1,6 @@
 import About from "../components/About";
 import Banner from "../components/Banner";
+import EventSteps from "../components/EventSteps";
 import Video from "../components/Video";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <Banner />
       <About />
       <Video />
+      <EventSteps />
     </>
   );
 };

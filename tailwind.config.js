@@ -14,6 +14,9 @@ export default {
       },
       colors: {
         primaryColor: "#160098"
+      },
+      fontSize: {
+        heading: "60px"
       }
     },
   },
