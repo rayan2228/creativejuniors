@@ -10,18 +10,22 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 const Footer = () => {
   return (
-    <section className="bg-[#99258E] py-[150px]  text-white">
+    <section className="bg-[#99258E] py-[150px]  text-white px-10 lg:px-0">
       <Container>
-        <Flex className={"justify-between"}>
-          <Flex className={"flex-col gap-[120px] w-[360px]"}>
+        <Flex className={"justify-between flex-wrap gap-y-10"}>
+          <Flex className={"lg:flex-col gap-[120px] lg:w-[360px] "}>
             <div>
-              <Img src={logo} alt={logo} />
+              <Img src={logo} alt={logo} className={"w-full"} />
             </div>
             <div>
-              <Img src={cbg} alt={cbg} />
+              <Img src={cbg} alt={cbg} className={"w-full"} />
             </div>
           </Flex>
-          <Flex className={"flex-col gap-[120px] w-[421px] "}>
+          <Flex
+            className={
+              "lg:flex-col lg:gap-[120px] gap-y-10 lg:w-[421px] flex-wrap "
+            }
+          >
             <div>
               <h2 className="font-bold text-[32px] leading-[28px] font-aeonik">
                 Mobile Number
@@ -42,7 +46,7 @@ const Footer = () => {
               </address>
             </div>
           </Flex>
-          <Flex className={"flex-col gap-[120px] w-[243px]"}>
+          <Flex className={"flex-col lg:gap-[120px] lg:w-[243px] gap-y-10"}>
             <div>
               <h2 className="font-bold text-[32px] leading-[28px] font-aeonik mb-[30px]">
                 Mobile Number
@@ -50,24 +54,30 @@ const Footer = () => {
               <Img src={qr} alt={qr} />
             </div>
             <Flex className={"gap-x-5 items-center"}>
-              <Flex
-                className="w-[53px] h-[53px] rounded-full bg-[#E8214E] justify-center items-center"
-                style={{ boxShadow: "0px 4px 4px 0px rgba(0,0,0,0.25)" }}
-              >
-                <FaFacebookF />
-              </Flex>
-              <Flex
-                className="w-[53px] h-[53px] rounded-full bg-[#FBD422] justify-center items-center"
-                style={{ boxShadow: "0px 4px 4px 0px rgba(0,0,0,0.25)" }}
-              >
-                <FaTwitter className="text-[#99258E]" />
-              </Flex>
-              <Flex
-                className="w-[53px] h-[53px] rounded-full bg-[#E8214E] justify-center items-center"
-                style={{ boxShadow: "0px 4px 4px 0px rgba(0,0,0,0.25)" }}
-              >
-                <FaLinkedinIn />
-              </Flex>
+              <a href="">
+                <Flex
+                  className="w-[53px] h-[53px] rounded-full bg-[#E8214E] justify-center items-center text-white hover:bg-[#FBD422] hover:text-[#99258E] transition-colors"
+                  style={{ boxShadow: "0px 4px 4px 0px rgba(0,0,0,0.25)" }}
+                >
+                  <FaFacebookF />
+                </Flex>
+              </a>
+              <a href="">
+                <Flex
+                  className="w-[53px] h-[53px] rounded-full  bg-[#E8214E] justify-center items-center text-white hover:bg-[#FBD422] hover:text-[#99258E] transition-colors"
+                  style={{ boxShadow: "0px 4px 4px 0px rgba(0,0,0,0.25)" }}
+                >
+                  <FaTwitter />
+                </Flex>
+              </a>
+              <a href="">
+                <Flex
+                  className="w-[53px] h-[53px] rounded-full bg-[#E8214E] justify-center items-center text-white hover:bg-[#FBD422] hover:text-[#99258E] transition-colors"
+                  style={{ boxShadow: "0px 4px 4px 0px rgba(0,0,0,0.25)" }}
+                >
+                  <FaLinkedinIn />
+                </Flex>
+              </a>
             </Flex>
           </Flex>
         </Flex>

@@ -8,10 +8,11 @@ const Video = () => {
         backgroundImage: `url(${videoBg})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
       className="mt-[200px]"
     >
-      <div className="py-[227px] bg-[rgb(22,5,122,0.4)] text-center">
+      <div className="lg:py-[227px] py-[500px]  bg-[rgb(22,5,122,0.4)] text-center">
         <Img src={videoBtn} alt={videoBtn} className={"cursor-pointer"} />
       </div>
     </section>

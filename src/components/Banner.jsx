@@ -12,10 +12,14 @@ const Banner = () => {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
-      className=" text-center pt-[602px] relative"
+      className=" text-center lg:pt-[602px] pt-[400px] relative"
     >
-      <Img src={carnival} alt={carnival} className={"relative z-10"} />
-      <div className={"  mt-[-180px] relative bottom-[-6px] "}>
+      <Img
+        src={carnival}
+        alt={carnival}
+        className={"relative z-10 w-[90vw] lg:w-auto"}
+      />
+      <div className={"  lg:mt-[-180px] mt-[-100px] relative bottom-[-6px] "}>
         <Img src={shape} className={"w-full"} />
       </div>
       <Header />

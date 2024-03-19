@@ -15,7 +15,11 @@ const EventBenefits = () => {
         <h2 className="font-banglaSemiBold text-heading">
           এই ইভেন্টের সুবিধা সমূহ
         </h2>
-        <Flex className={"mt-[100px] flex-wrap gap-x-[30px]"}>
+        <Flex
+          className={
+            "mt-[100px] flex-wrap gap-x-[30px] justify-center gap-y-10"
+          }
+        >
           <EventBenefitesList
             heading={"Coding শেখার মাধ্যমে জুনিয়রদের হবে মেধার বিকাশ"}
             src={bImg1}

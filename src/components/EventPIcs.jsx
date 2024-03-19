@@ -25,12 +25,12 @@ const EventPIcs = () => {
   ];
   return (
     <section>
-      <div className="text-center mt-[100px] w-[1002px] m-auto">
+      <div className="text-center mt-[100px] lg:w-[1002px] m-auto w-[90vw]">
         {" "}
         <h2 className="font-banglaSemiBold text-heading text-primaryColor">
           ইভেন্টের কার্যক্রম
         </h2>
-        <p className="font-banglaRegular text-[#2B2B2B] text-[32px] mt-[30px] ">
+        <p className="font-banglaRegular text-[#2B2B2B] lg:text-[32px] text-2xl  mt-[30px] ">
           <span className="block">
             {" "}
             চলছে ‘জুনিয়রস অ্যাপ এন্ড গেম কার্নিভাল’ এর রেজিস্ট্রেশন।
@@ -43,12 +43,34 @@ const EventPIcs = () => {
         </p>
       </div>
       <Container>
-        <Flex className={"flex-wrap gap-[28px] mt-[100px]"}>
-          {images.map((name) => (
-            <div>
-              <Img src={name} alt={name} />
-            </div>
-          ))}
+        <Flex className={"flex-wrap gap-[28px] mt-[100px] justify-center"}>
+          <div>
+            <Img src={eventImg1} alt={name} />
+          </div>
+          <div>
+            <Img src={eventImg2} alt={name} />
+          </div>
+          <div>
+            <Img src={eventImg3} alt={name} />
+          </div>
+          <div className="order-5 ">
+            <Img src={eventImg4} alt={name} />
+          </div>
+          <div>
+            <Img src={eventImg5} alt={name} />
+          </div>
+          <div className="">
+            <Img src={eventImg6} alt={name} />
+          </div>
+          <div>
+            <Img src={eventImg7} alt={name} />
+          </div>
+          <div className="order-5 ">
+            <Img src={eventImg8} alt={name} />
+          </div>
+          <div>
+            <Img src={eventImg9} alt={name} />
+          </div>
         </Flex>
       </Container>
     </section>

@@ -6,17 +6,21 @@ const About = () => {
   return (
     <section>
       <Container>
-        <h1 className="font-banglaSemiBold text-[60px] text-primaryColor leading-[130%] text-center">
+        <h1 className="font-banglaSemiBold lg:text-[60px] text-5xl   text-primaryColor leading-[130%] text-center">
           <span className="block">বাংলাদেশে এই প্রথমবার</span>
           <span className="block">স্কুল শিক্ষার্থীদের জন্য অনুষ্ঠিত হবে </span>
           <span className="block">“জুনিয়রস অ্যাপ এন্ড গেম কার্নিভাল”</span>
         </h1>
-        <Flex className={"mt-[100px] justify-between items-center"}>
-          <div className="w-2/5">
+        <Flex
+          className={
+            "mt-[100px] justify-between items-center flex-col lg:flex-row gap-y-24"
+          }
+        >
+          <div className="lg:w-2/5">
             <Img src={aboutImg} alt={aboutImg} className={"w-full"} />
           </div>
-          <div className="w-[48%]">
-            <p className="font-banglaRegular text-[32px] leading-[150%] w-[604px]">
+          <div className="lg:w-[48%]">
+            <p className="font-banglaRegular lg:text-[32px] leading-[150%] lg:w-[604px] w-[90vw] text-center lg:text-left text-[25px]">
               ক্রিয়েটিভ আইটি ইনস্টিটিউট দীর্ঘ ১৫ বছর ধরে জনসাধারণের মাঝে আইটি
               প্রশিক্ষণ ও সচেতনতা প্রদানের মাধ্যমে দেশের মানুষের দক্ষতা উন্নয়নে
               কাজ করে আসছে। পাশাপাশি আগামীর কর্ণধারদের নিয়েও কাজ করে যাচ্ছে

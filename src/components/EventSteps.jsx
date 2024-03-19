@@ -12,8 +12,12 @@ const EventSteps = () => {
   return (
     <section className="font-banglaRegular py-[200px] bg-[rgb(251,211,34,0.15)]">
       <Container>
-        <Flex className={"justify-between"}>
-          <div className="w-[532px]">
+        <Flex
+          className={
+            "lg:justify-between flex-wrap  items-center justify-center gap-y-10"
+          }
+        >
+          <div className="w-[532px] text-center lg:text-left">
             <h2 className="text-heading font-banglaSemiBold text-primaryColor">
               ইভেন্টের ধাপগুলো
             </h2>
@@ -28,9 +32,9 @@ const EventSteps = () => {
               className={"mt-[170px] inline-block"}
             />
           </div>
-          <Flex className="w-[690px] flex-col gap-y-[60px]">
+          <Flex className="lg:w-[690px] flex-col gap-y-[60px] w-[70vw]">
             <Steps
-              className="bg-[#83A62D] after:content-[''] after:h-[125px] after:w-[2px] after:absolute after:bg-[#82d0d6] after:bottom-[-130px]"
+              className="bg-[#83A62D] after:content-[''] after:h-[125px] after:w-[2px] after:absolute after:bg-[#82d0d6] after:bottom-[-130px] "
               heading={"রেজিস্ট্রেশন"}
               content={`অনলাইন রেজিস্ট্রেশনের জন্য সোশ্যাল মিডিয়া এবং ওয়েবসাইটের
                   মাধ্যমে আগ্রহীদের একটি ফর্ম প্রদান করা হবে। অফলাইনে
