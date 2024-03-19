@@ -12,7 +12,7 @@ const Video = () => {
       }}
       className="mt-[200px]"
     >
-      <div className="lg:py-[227px] py-[500px]  bg-[rgb(22,5,122,0.4)] text-center">
+      <div className="xl:py-[227px] py-[500px]  bg-[rgb(22,5,122,0.4)] text-center">
         <Img src={videoBtn} alt={videoBtn} className={"cursor-pointer"} />
       </div>
     </section>

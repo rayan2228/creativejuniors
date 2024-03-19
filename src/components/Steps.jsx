@@ -3,13 +3,13 @@ import Flex from "./layouts/Flex";
 
 const Steps = ({ children, heading, content, className }) => {
   return (
-    <Flex className={"justify-between"}>
+    <Flex className={"justify-between gap-x-10"}>
       <Flex
         className={`w-[60px] h-[60px] text-white relative rounded-[10px] text-2xl justify-center items-center ${className}  `}
       >
         {children}
       </Flex>
-      <div className="lg:w-[592px] w-[460px]">
+      <div className="xl:w-[592px] w-[460px]">
         <h2 className="text-[40px]">{heading}</h2>
         <p className="text-lg text-[#2B2B2B] leading-[150%] mt-5">{content}</p>
       </div>

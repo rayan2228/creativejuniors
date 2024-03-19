@@ -13,7 +13,7 @@ const Sponsers = () => {
     <section className="text-2xl font-bold font-aeonik my-[200px] px-10">
       <Container>
         <Flex className={"gap-x-[30px] flex-wrap gap-y-10"}>
-          <div className="w-[308px]">
+          <div className="lg:w-[308px]">
             <h3>In Association With</h3>
             <Flex className="border border-[#FBD422] border-solid rounded-[30px] items-center justify-center h-[163px] mt-5">
               <Img src={dailyStar} />

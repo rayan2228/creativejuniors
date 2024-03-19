@@ -10,10 +10,10 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 const Footer = () => {
   return (
-    <section className="bg-[#99258E] py-[150px]  text-white px-10 lg:px-0">
+    <section className="bg-[#99258E] py-[150px]  text-white px-10 xl:px-0">
       <Container>
         <Flex className={"justify-between flex-wrap gap-y-10"}>
-          <Flex className={"lg:flex-col gap-[120px] lg:w-[360px] "}>
+          <Flex className={"xl:flex-col gap-[120px] xl:w-[360px]  "}>
             <div>
               <Img src={logo} alt={logo} className={"w-full"} />
             </div>
@@ -23,7 +23,7 @@ const Footer = () => {
           </Flex>
           <Flex
             className={
-              "lg:flex-col lg:gap-[120px] gap-y-10 lg:w-[421px] flex-wrap "
+              "xl:flex-col xl:gap-[120px] gap-y-10 xl:w-[421px] flex-wrap "
             }
           >
             <div>
@@ -46,7 +46,7 @@ const Footer = () => {
               </address>
             </div>
           </Flex>
-          <Flex className={"flex-col lg:gap-[120px] lg:w-[243px] gap-y-10"}>
+          <Flex className={"flex-col xl:gap-[120px] xl:w-[243px] gap-y-10"}>
             <div>
               <h2 className="font-bold text-[32px] leading-[28px] font-aeonik mb-[30px]">
                 Mobile Number

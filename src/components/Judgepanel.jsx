@@ -10,9 +10,9 @@ import Judge from "./Judge";
 
 const Judgepanel = () => {
   return (
-    <div className="py-[200px]">
+    <div className="py-[200px] px-5 xl:px-0">
       <Container>
-        <h2 className="text-center text-primaryColor font-banglaSemiBold text-heading mb-[100px]">
+        <h2 className="text-center text-primaryColor font-banglaSemiBold lg:text-heading mb-[100px] text-4xl">
           আমাদের সম্মানিত বিচারকমন্ডলী
         </h2>
         <Flex className="flex-wrap justify-center mb-6 lg:justify-between gap-y-10">

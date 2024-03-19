@@ -17,7 +17,7 @@ const Banner = () => {
       <Img
         src={carnival}
         alt={carnival}
-        className={"relative z-10 w-[90vw] lg:w-auto"}
+        className={"relative z-10 w-[90vw] xl:w-auto"}
       />
       <div className={"  lg:mt-[-180px] mt-[-100px] relative bottom-[-6px] "}>
         <Img src={shape} className={"w-full"} />

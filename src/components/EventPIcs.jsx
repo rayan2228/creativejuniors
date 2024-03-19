@@ -53,7 +53,7 @@ const EventPIcs = () => {
           <div>
             <Img src={eventImg3} alt={name} />
           </div>
-          <div className="order-5 ">
+          <div className="order-5 xl:order-none ">
             <Img src={eventImg4} alt={name} />
           </div>
           <div>
@@ -62,10 +62,10 @@ const EventPIcs = () => {
           <div className="">
             <Img src={eventImg6} alt={name} />
           </div>
-          <div>
+          <div className="lg:order-5 xl:order-none">
             <Img src={eventImg7} alt={name} />
           </div>
-          <div className="order-5 ">
+          <div className="order-5 xl:order-none">
             <Img src={eventImg8} alt={name} />
           </div>
           <div>

@@ -10,18 +10,18 @@ import Img from "./layouts/Img";
 import Steps from "./Steps";
 const EventSteps = () => {
   return (
-    <section className="font-banglaRegular py-[200px] bg-[rgb(251,211,34,0.15)]">
+    <section className=" font-banglaRegular py-[200px] bg-[rgb(251,211,34,0.15)]">
       <Container>
         <Flex
           className={
-            "lg:justify-between flex-wrap  items-center justify-center gap-y-10"
+            "xl:justify-between lg:justify-around flex-wrap lg:flex-nowrap  items-center justify-center gap-y-10"
           }
         >
-          <div className="w-[532px] text-center lg:text-left">
+          <div className="xl:w-[532px] lg:w-[300px] text-center lg:text-left">
             <h2 className="text-heading font-banglaSemiBold text-primaryColor">
               ইভেন্টের ধাপগুলো
             </h2>
-            <p className="mb-16 text-3xl mt-7">
+            <p className="mb-16 text-2xl xl:text-3xl mt-7">
               মানুষ আসবার পূর্বেই জীবসৃষ্টিযজ্ঞে প্রকৃতির ভূরিব্যয়ের পালা শেষ
               হয়ে এসেছে
             </p>
@@ -29,10 +29,10 @@ const EventSteps = () => {
             <Img
               src={eventImg}
               alr={eventImg}
-              className={"mt-[170px] inline-block"}
+              className={"mt-[170px] inline-block lg:w-full"}
             />
           </div>
-          <Flex className="lg:w-[690px] flex-col gap-y-[60px] w-[70vw]">
+          <Flex className="xl:w-[690px] lg:w-auto flex-col gap-y-[60px] w-[70vw]">
             <Steps
               className="bg-[#83A62D] after:content-[''] after:h-[125px] after:w-[2px] after:absolute after:bg-[#82d0d6] after:bottom-[-130px] "
               heading={"রেজিস্ট্রেশন"}
