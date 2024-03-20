@@ -12,7 +12,7 @@ const EventBenefits = () => {
   return (
     <section className="bg-[#E8214E] text-white text-center py-[150px] mt-[200px]">
       <Container>
-        <h2 className="font-banglaSemiBold text-heading">
+        <h2 className="font-banglaSemiBold sm:text-heading text-4xl">
           এই ইভেন্টের সুবিধা সমূহ
         </h2>
         <Flex

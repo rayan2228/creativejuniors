@@ -14,14 +14,14 @@ const EventSteps = () => {
       <Container>
         <Flex
           className={
-            "xl:justify-between lg:justify-around flex-wrap lg:flex-nowrap  items-center justify-center gap-y-10"
+            "xl:justify-between lg:justify-around flex-wrap   items-center justify-center gap-y-10"
           }
         >
-          <div className="xl:w-[532px] lg:w-[300px] text-center lg:text-left">
-            <h2 className="text-heading font-banglaSemiBold text-primaryColor">
+          <div className="xl:w-[532px] lg:w-[300px]  text-center lg:text-left">
+            <h2 className="sm:text-heading text-5xl font-banglaSemiBold text-primaryColor">
               ইভেন্টের ধাপগুলো
             </h2>
-            <p className="mb-16 text-2xl xl:text-3xl mt-7">
+            <p className="mb-16 sm:text-2xl xl:text-3xl mt-7 w-[80vw] sm:w-auto m-auto">
               মানুষ আসবার পূর্বেই জীবসৃষ্টিযজ্ঞে প্রকৃতির ভূরিব্যয়ের পালা শেষ
               হয়ে এসেছে
             </p>
@@ -29,10 +29,10 @@ const EventSteps = () => {
             <Img
               src={eventImg}
               alr={eventImg}
-              className={"mt-[170px] inline-block lg:w-full"}
+              className={"mt-[170px] inline-block lg:w-full w-[90vw]"}
             />
           </div>
-          <Flex className="xl:w-[690px] lg:w-auto flex-col gap-y-[80px] lg:gap-y-20 xl:gap-y-[60px] w-[70vw]">
+          <Flex className="xl:w-[690px] lg:w-auto flex-col sm:gap-y-20 gap-y-10  sm:w-[70vw] w-[90vw]">
             <Steps
               className="bg-[#83A62D] after:content-[''] after:h-[125px] after:w-[2px] after:absolute after:bg-[#82d0d6] after:bottom-[-130px] "
               heading={"রেজিস্ট্রেশন"}

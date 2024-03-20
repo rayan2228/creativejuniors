@@ -16,7 +16,7 @@ const About = () => {
             "mt-[100px] justify-between items-center flex-col xl:flex-row gap-y-24"
           }
         >
-          <div className="xl:w-2/5">
+          <div className="xl:w-2/5 w-[90vw]">
             <Img src={aboutImg} alt={aboutImg} className={"w-full"} />
           </div>
           <div className="xl:w-[48%]">

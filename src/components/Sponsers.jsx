@@ -29,7 +29,7 @@ const Sponsers = () => {
             <h3>Our Partners</h3>
             <Flex
               className={
-                "justify-around items-center border border-[#FBD422] border-solid rounded-[30px]  h-[163px] mt-5"
+                "justify-around items-center border border-[#FBD422] border-solid rounded-[30px] gap-y-10 py-[35px] mt-5 flex-wrap"
               }
             >
               <div className="">

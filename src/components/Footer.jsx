@@ -13,7 +13,11 @@ const Footer = () => {
     <section className="bg-[#99258E] py-[150px]  text-white px-10 xl:px-0">
       <Container>
         <Flex className={"justify-between flex-wrap gap-y-10"}>
-          <Flex className={"xl:flex-col gap-[120px] xl:w-[360px]  "}>
+          <Flex
+            className={
+              "flex-col sm:flex-row xl:flex-col sm:gap-[120px] gap-y-5 xl:w-[360px]  "
+            }
+          >
             <div>
               <Img src={logo} alt={logo} className={"w-full"} />
             </div>
