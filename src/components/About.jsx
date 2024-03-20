@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section>
       <Container>
-        <h1 className="font-banglaSemiBold xl:text-[60px] text-5xl   text-primaryColor leading-[130%] text-center">
+        <h1 className="font-banglaSemiBold xl:text-[60px] sm:text-5xl   text-primaryColor !leading-[130%] text-center text-2xl">
           <span className="block">বাংলাদেশে এই প্রথমবার</span>
           <span className="block">স্কুল শিক্ষার্থীদের জন্য অনুষ্ঠিত হবে </span>
           <span className="block">“জুনিয়রস অ্যাপ এন্ড গেম কার্নিভাল”</span>
