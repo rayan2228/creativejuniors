@@ -12,14 +12,14 @@ const Sponsers = () => {
   return (
     <section className="text-2xl font-bold font-aeonik my-[200px] px-10">
       <Container>
-        <Flex className={"gap-x-[30px] flex-wrap gap-y-10"}>
-          <div className="lg:w-[308px]">
+        <Flex className={"gap-x-[30px]  flex-wrap gap-y-10"}>
+          <div className="xl:w-[308px] flex-grow xl:flex-grow-0">
             <h3>In Association With</h3>
             <Flex className="border border-[#FBD422] border-solid rounded-[30px] items-center justify-center h-[163px] mt-5">
               <Img src={dailyStar} />
             </Flex>
           </div>
-          <div className="w-[308px]">
+          <div className="xl:w-[308px] flex-grow xl:flex-grow-0">
             <h3>Nutrition Partner</h3>
             <Flex className="border border-[#FBD422] border-solid rounded-[30px] items-center justify-center h-[163px] mt-5">
               <Img src={surfuexecl} />

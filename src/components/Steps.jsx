@@ -10,7 +10,7 @@ const Steps = ({ children, heading, content, className }) => {
         {children}
       </Flex>
       <div className="xl:w-[592px] w-[460px]">
-        <h2 className="text-[40px]">{heading}</h2>
+        <h2 className="md:text-[40px] text-4xl">{heading}</h2>
         <p className="text-lg text-[#2B2B2B] leading-[150%] mt-5">{content}</p>
       </div>
     </Flex>

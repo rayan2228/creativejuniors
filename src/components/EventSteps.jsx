@@ -32,7 +32,7 @@ const EventSteps = () => {
               className={"mt-[170px] inline-block lg:w-full"}
             />
           </div>
-          <Flex className="xl:w-[690px] lg:w-auto flex-col gap-y-[60px] w-[70vw]">
+          <Flex className="xl:w-[690px] lg:w-auto flex-col gap-y-[80px] lg:gap-y-20 xl:gap-y-[60px] w-[70vw]">
             <Steps
               className="bg-[#83A62D] after:content-[''] after:h-[125px] after:w-[2px] after:absolute after:bg-[#82d0d6] after:bottom-[-130px] "
               heading={"রেজিস্ট্রেশন"}

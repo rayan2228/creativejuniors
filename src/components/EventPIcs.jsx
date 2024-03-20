@@ -24,7 +24,7 @@ const EventPIcs = () => {
     eventImg9,
   ];
   return (
-    <section>
+    <section className="">
       <div className="text-center mt-[100px] lg:w-[1002px] m-auto w-[90vw]">
         {" "}
         <h2 className="font-banglaSemiBold text-heading text-primaryColor">
@@ -43,33 +43,33 @@ const EventPIcs = () => {
         </p>
       </div>
       <Container>
-        <Flex className={"flex-wrap gap-[28px] mt-[100px] justify-center"}>
+        <Flex className={"flex-wrap gap-[28px] mt-[100px] justify-center "}>
           <div>
-            <Img src={eventImg1} alt={name} />
+            <Img src={eventImg1} alt={name} className={"w-full"} />
           </div>
           <div>
-            <Img src={eventImg2} alt={name} />
+            <Img src={eventImg2} alt={name} className={"w-full"} />
           </div>
           <div>
-            <Img src={eventImg3} alt={name} />
+            <Img src={eventImg3} alt={name} className={"w-full"} />
           </div>
           <div className="order-5 xl:order-none ">
-            <Img src={eventImg4} alt={name} />
+            <Img src={eventImg4} alt={name} className={"w-full"} />
           </div>
           <div>
-            <Img src={eventImg5} alt={name} />
+            <Img src={eventImg5} alt={name} className={"w-full"} />
           </div>
           <div className="">
-            <Img src={eventImg6} alt={name} />
+            <Img src={eventImg6} alt={name} className={"w-full"} />
           </div>
           <div className="lg:order-5 xl:order-none">
-            <Img src={eventImg7} alt={name} />
+            <Img src={eventImg7} alt={name} className={"w-full"} />
           </div>
           <div className="order-5 xl:order-none">
-            <Img src={eventImg8} alt={name} />
+            <Img src={eventImg8} alt={name} className={"w-full"} />
           </div>
           <div>
-            <Img src={eventImg9} alt={name} />
+            <Img src={eventImg9} alt={name} className={"w-full"} />
           </div>
         </Flex>
       </Container>
