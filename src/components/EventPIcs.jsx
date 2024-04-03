@@ -27,10 +27,10 @@ const EventPIcs = () => {
     <section className="">
       <div className="text-center mt-[100px] lg:w-[1002px] m-auto w-[90vw]">
         {" "}
-        <h2 className="font-banglaSemiBold sm:text-heading text-4xl text-primaryColor">
+        <h2 className="text-4xl font-banglaSemiBold sm:text-heading text-primaryColor">
           ইভেন্টের কার্যক্রম
         </h2>
-        <p className="font-banglaRegular text-[#2B2B2B] lg:text-[32px] text-2xl  mt-[30px] ">
+        <p className="font-banglaRegular text-[#2B2B2B] lg:text-[32px] text-2xl  mt-[30px] leading-[120%]">
           <span className="block">
             {" "}
             চলছে ‘জুনিয়রস অ্যাপ এন্ড গেম কার্নিভাল’ এর রেজিস্ট্রেশন।

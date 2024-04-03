@@ -31,19 +31,19 @@ const Footer = () => {
             }
           >
             <div>
-              <h2 className="font-bold text-[32px] leading-[28px] font-aeonik">
+              <h2 className="font-semibold text-[32px] leading-[28px] font-inter">
                 Mobile Number
               </h2>
-              <p className="text-3xl font-normal leading-[130%] mt-[30px] ">
+              <p className="text-3xl font-inter font-normal leading-[130%] mt-[30px] ">
                 01400 133 133, 01958 155 233 01990 779 767, 01958 155 654
                 01990779805, 01329 723 285
               </p>
             </div>
             <div>
-              <h2 className="font-bold text-[32px] leading-[28px] font-aeonik">
+              <h2 className="font-semibold text-[32px] leading-[28px] font-inter">
                 Our Address
               </h2>
-              <address className="text-3xl font-normal leading-[130%] mt-[30px]">
+              <address className="text-3xl font-inter font-normal leading-[130%] mt-[30px]">
                 <span className="block">Momtaz Plaza (4th floor),</span>{" "}
                 <span className="block">H: 07, R: 04, Dhanmondi,</span>
                 Dhaka -1205
@@ -52,8 +52,8 @@ const Footer = () => {
           </Flex>
           <Flex className={"flex-col xl:gap-[120px] xl:w-[243px] gap-y-10"}>
             <div>
-              <h2 className="font-bold text-[32px] leading-[28px] font-aeonik mb-[30px]">
-                Mobile Number
+              <h2 className="font-bold text-[30px] leading-[28px] font-aeonik mb-[30px]">
+                Scan to Register
               </h2>
               <Img src={qr} alt={qr} />
             </div>
