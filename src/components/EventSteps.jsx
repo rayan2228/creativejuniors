@@ -75,7 +75,7 @@ const EventSteps = () => {
             <Steps
               className="bg-[#83A62D] after:content-[''] after:h-[125px] after:w-[2px] after:absolute after:bg-[#82d0d6] after:bottom-[-130px]"
               heading={"৪ মাসের প্রশিক্ষণ"}
-              content={`৫০ জনকে মূল প্রতিযোগিতার আগে ৪ মাসের প্রশিক্ষণ প্রদান করা হবে। সবশেষে ৩-৫ জনকে বিজয়ী ঘোষণা করা হবে।`}
+              content={`৫০ জনকে মূল প্রতিযোগিতার আগে ৪ মাসের প্রশিক্ষণ প্রদান করা হবে। সবশেষে ৩-৫টি গ্রুপকে বিজয়ী ঘোষণা করা হবে।`}
               src={icon3}
             ></Steps>
             <Steps
