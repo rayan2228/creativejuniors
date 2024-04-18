@@ -26,13 +26,13 @@ const Judgepanel = () => {
           কোডিং থেকে শুরু  করে রোবটিক্স সব ক্ষেত্রেই শিশুদের সাফল্যের গল্প
           প্রায়ই আমরা শুনে থাকি। তাই এই দ্রুত গতির জীবনে এগিয়ে যেতে হলে
           প্রস্তুতি নিতে হবে আগে থেকেই।`}
-            className={"py-2"}
+            className={"py-2 lg:w-auto"}
           />
         </Flex>
         <h2 className="text-center text-primaryColor font-banglaSemiBold lg:text-heading my-[100px] text-4xl">
           এডভাইজার
         </h2>
-        <Flex className="flex-wrap mb-6 gap-x-8 gap-y-10">
+        <Flex className="flex-wrap justify-around mb-6 xl:gap-x-8 gap-y-10">
           <Judge
             src={coo}
             name={"Zia Uddin Mahmud"}
@@ -78,7 +78,7 @@ const Judgepanel = () => {
             src={consultants}
             name={"Mehjabin Badhon"}
             degi={"Consultant, Creative Business Group"}
-            className={"py-2"}
+            className={"py-2 lg:w-auto"}
           />
         </Flex>
       </Container>

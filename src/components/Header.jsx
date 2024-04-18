@@ -11,7 +11,7 @@ const Header = () => {
   const [modalShow, setShowModal] = useState(false);
   return (
     <>
-      <header className=" bg-white/90 absolute z-50 top-28 left-[50%]  rounded-[160px]  sm:px-10 sm:py-10 p-5 w-[80vw] max-w-[1700px] header_custom_css ">
+      <header className=" bg-white/90 absolute z-40 top-28 left-[50%]  rounded-[160px]  sm:px-10 sm:py-10 p-5 w-[80vw] max-w-[1700px] header_custom_css ">
         <Flex className={"items-center  lg:w-full justify-between"}>
           <Flex className="items-center w-1/2 gap-x-5 lg:gap-x-12 ">
             <Img
@@ -24,7 +24,7 @@ const Header = () => {
           </Flex>
           <Flex className="items-center justify-end w-1/2">
             <RegisterBtn className={"hidden sm:inline-block"} />
-            <div onClick={() => setShowModal(!modalShow)}>
+            <div onClick={() => setShowModal(true)}>
               <FaBars
                 className="p-2 text-white rounded-full cursor-pointer bg-primaryColor sm:hidden "
                 style={{
@@ -33,7 +33,10 @@ const Header = () => {
               />
             </div>
             {modalShow &&
-              createPortal(<Modal />, document.querySelector("#modal"))}
+              createPortal(
+                <Modal onClose={() => setShowModal(false)} />,
+                document.querySelector("#modal")
+              )}
           </Flex>
         </Flex>
       </header>

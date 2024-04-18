@@ -6,7 +6,7 @@ import surfuexecl from "../assets/surfuexecl.png";
 import innovation from "../assets/innovation.png";
 import somoy from "../assets/somoy.png";
 import engcouncil from "../assets/engcouncil.png";
-import bdapps from "../assets/bdapps.png";
+import bdapplogo from "../assets/bdapplogo.png";
 import Container from "./layouts/Container";
 const Sponsers = () => {
   return (
@@ -42,7 +42,7 @@ const Sponsers = () => {
                 <Img src={engcouncil} />
               </div>
               <div>
-                <Img src={bdapps} />
+                <Img src={bdapplogo} />
               </div>
             </Flex>
           </div>
