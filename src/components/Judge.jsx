@@ -2,9 +2,11 @@ import React from "react";
 import Img from "./layouts/Img";
 import Flex from "./layouts/Flex";
 
-const Judge = ({ src, name, degi, details }) => {
+const Judge = ({ src, name, degi, details, className }) => {
   return (
-    <Flex className="px-3   items-center bg-[#F5F5F5] border border-gray-200 rounded-lg shadow sm:flex-row lg:w-[47%] flex-col  ">
+    <Flex
+      className={`px-3 items-center bg-[#F5F5F5] border border-gray-200 rounded-lg shadow sm:flex-row  flex-col ${className} `}
+    >
       <Img
         className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
         src={src}

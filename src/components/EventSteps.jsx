@@ -2,6 +2,7 @@ import icon1 from "../assets/icons/icon1.svg";
 import icon2 from "../assets/icons/icon2.svg";
 import icon3 from "../assets/icons/icon3.svg";
 import icon4 from "../assets/icons/icon4.svg";
+import icon5 from "../assets/icons/icon5.svg";
 import Container from "./layouts/Container";
 import RegisterBtn from "./layouts/RegisterBtn";
 import eventImg from "../assets/eventstep.png";
@@ -29,7 +30,7 @@ const EventSteps = () => {
             <Img
               src={eventImg}
               alr={eventImg}
-              className={"mt-[170px] inline-block lg:w-full w-[90vw]"}
+              className={"mt-[270px] inline-block lg:w-full w-[90vw]"}
             />
           </div>
           <Flex className="xl:w-[690px] lg:w-auto flex-col sm:gap-y-20 gap-y-10  sm:w-[70vw] w-[90vw]">
@@ -72,10 +73,16 @@ const EventSteps = () => {
               src={icon4}
             ></Steps>
             <Steps
-              className="bg-[#83A62D]"
+              className="bg-[#83A62D] after:content-[''] after:h-[125px] after:w-[2px] after:absolute after:bg-[#82d0d6] after:bottom-[-130px]"
               heading={"৪ মাসের প্রশিক্ষণ"}
               content={`৫০ জনকে মূল প্রতিযোগিতার আগে ৪ মাসের প্রশিক্ষণ প্রদান করা হবে। সবশেষে ৩-৫ জনকে বিজয়ী ঘোষণা করা হবে।`}
               src={icon3}
+            ></Steps>
+            <Steps
+              className="bg-[#EC174C]"
+              heading={"পুরস্কার বিতরণী"}
+              content={`জাঁকজমকপূর্ণ আয়োজনের মাধ্যমে বিজয়ী শিক্ষার্থীদের পুরস্কৃত করা হবে এবং ক্রেস্ট প্রদান করা হবে।`}
+              src={icon5}
             ></Steps>
           </Flex>
         </Flex>

@@ -1,6 +1,7 @@
 import bg from "../assets/bg2.png";
 import carnival from "../assets/carnival.png";
 import shape from "../assets/shape.png";
+import BeforeHeader from "./BeforeHeader";
 import Header from "./Header";
 import Img from "./layouts/Img";
 const Banner = () => {
@@ -26,6 +27,7 @@ const Banner = () => {
       >
         <Img src={shape} className={"w-full"} />
       </div>
+      <BeforeHeader />
       <Header />
     </div>
   );

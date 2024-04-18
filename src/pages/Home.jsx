@@ -1,5 +1,6 @@
 import About from "../components/About";
 import Banner from "../components/Banner";
+import BeforeHeader from "../components/BeforeHeader";
 import CopyWrite from "../components/CopyWrite";
 import EventBenefits from "../components/EventBenefits";
 import EventPIcs from "../components/EventPIcs";
